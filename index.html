@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="styles.css" rel="stylesheet" />
+
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        /> -->
+    </head>
+    <body>
+        <!-- <table cellspacing="20">
+            <tr>
+                <th>
+                    <img src="rabbit.png" alt="My Image" width="200" height="200" class="avatar" />
+                </th>
+                <th>
+                    <h2>Лебедев Артур</h2>
+                    <p>бла бла параграф бла бла бла</p>
+                </th>
+            </tr>
+            <tr></tr>
+        </table> -->
+
+        <div class="container">
+            <div class="info">
+                <img src="rabbit.png" alt="My Image" width="200" height="200" class="avatar" />
+                <div class="info-text">
+                    <h2>Лебедев Артур</h2>
+                    <p>Бла бла параграф бла бла бла</p>
+                    <p>Описание бла бла бла</p>
+                </div>
+            </div>
+
+            <div class="table">
+                <h2>Опыт работы</h2>
+                <table class="work-table">
+                    <thead>
+                        <tr class="header-row">
+                            <th>Должность</th>
+                            <th>Профессия</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+
+                    <tr class="header-row">
+                        <th>Ювелир</th>
+                        <th>Мастер</th>
+                        <th>2015 - 2020</th>
+                    </tr>
+                </table>
+            </div>
+
+            <br />
+
+            <div class="contact">
+                <div class="contact-row">
+                    <div class="form-group">
+                        <label for="name">Вашe имя: </label>
+                        <input
+                            type="name"
+                            id="name"
+                            name="name"
+                            placeholder="Введите ваше имя..."
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш емеил: </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Введите ваш емеил"
+                        />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback">Ваше сообщение: </label>
+                    <textarea
+                        id="feedback"
+                        name="feedback"
+                        rows="4"
+                        cols="50"
+                        placeholder="Введите ваше сообщение"
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn">Отправить</button>
+            </div>
+        </div>
+    </body>
+</html>
